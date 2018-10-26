@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+.navbar-brand  span{
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+}
+.navbar-brand {
+    color: #fff;
+    text-shadow: 1px 1px 1px #1fd1d1;
+	font-size:25px;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+	font-weight:700;
+	letter-spacing:0.1em;
+}
+
+.navbar-nav .nav-item .nav-link{
+	padding: 1.1em 1em!important;
+	font-size: 120%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+   font-family: 'Kaushan Script', sans-serif;
+}
+.navbar-nav .nav-item .nav-link:hover{color:#fed136;}
+.navbar-expand-md .navbar-nav .dropdown-menu{
+	border-top:3px solid #fed136;
+}
+.dropdown-item:hover{background-color:#fed136;color:#fff;}
+nav{-webkit-transition: padding-top .3s,padding-bottom .3s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+    transition: padding-top .3s,padding-bottom .3s;
+    border: none;
+	}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+body{
+    color: white;
+    border-top: 0px solid crimson;
+    background-color: #923cb7;
+    background: linear-gradient(20deg,#1fd1d1,#0b3a3a,#188989); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+    -webkit-animation: changeColors 20s ease infinite;
+    -moz-animation: changeColors 20s ease infinite;
+    -o-animation: changeColors 20s ease infinite;
+    animation: changeColors 20s ease infinite;
+}
+
+.rgbcolor{
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size: 60px;
+    height: 100px;
+    
+}
+
+.rgbcolorb{
+    color: white;
+    border-top: 0px solid crimson;
+    background-color: #c91d61;
+    background: linear-gradient(20deg,#7a17a5,#1394a3,#a21299); /*Change colors as you want*/
+    background-size: 1000% 1000% !important;
+    -webkit-animation: changeColors 30s ease infinite;
+    -moz-animation: changeColors 30s ease infinite;
+    -o-animation: changeColors 30s ease infinite;
+    animation: changeColors 30s ease infinite;
+    font-family: 'Ubuntu'
+}
+
+.ubuntu{
+    color: white;
+    font-family: 'Ubuntu';
+}
+
+.testeh1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 80px;
+    text-shadow: 1px 1px 1px #1fd1d1;
+}
+
+@-webkit-keyframes changeColors {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
